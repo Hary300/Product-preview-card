@@ -23,7 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Hary300/Product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://hary300.github.io/Product-preview-card/)
 
 ## My process
 
