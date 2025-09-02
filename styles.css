@@ -38,6 +38,8 @@ ol {
 
 body {
   display: flex;
+  flex-direction: column;
+  gap: 3vw;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -133,7 +135,19 @@ body {
   height: auto;
 }
 
+.attribution {
+  font-size: 3vw;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 1024px) {
+  body {
+    gap: 1.5vw;
+  }
+
   .main {
     display: flex;
     flex-direction: row;
@@ -208,12 +222,8 @@ body {
   .section__button-cart {
     width: 2vw;
   }
-}
 
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
+  .attribution {
+    font-size: 1.5vw;
+  }
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}*/
